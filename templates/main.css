@@ -1,0 +1,12 @@
+.column {
+  float: left;
+  width: 30%; /* Ширина каждой колонки */
+  margin-right: 2%; /* Расстояние между колонками */
+  box-sizing: border-box; /* Учитывать padding и border в ширине */
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
